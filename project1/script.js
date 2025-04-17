@@ -110,5 +110,15 @@ document.getElementById("demo16").innerHTML = `
   var str = "I love JavaScript.";
 document.getElementById("demo17").innerHTML = `
   var str = "I love JavaScript.";<br>
-  str.repeat()<br>
+  str.repeat(4)<br>
   Result : ${str.repeat(4)}`
+
+  // replace method 
+  var str = "I love JavaScript.";
+  document.getElementById("demo18").innerHTML = `
+    var str = "I love JavaScript.";<br>
+    str.replace("love","like")<br>
+    Result : ${str.replace("love","like")}`
+
+
+//
