@@ -95,7 +95,13 @@ demo1.innerHTML = str.trimEnd()<br> Real string  : <br> ${str} <br> Result :<br>
 var str = "I love JavaScript.";
 document.getElementById("demo15").innerHTML = `
   var str = "I love JavaScript.";<br>
-  str.padStart(25, "_")<br>
+  str.padStart(25, "_")   (targetLength , padString )<br>
   Result :<br>${str.padStart(50, " ---")}`; /// it adding the padding in start 
 
-  
+/// padEnd() method 
+
+var str = "I love JavaScript.";
+document.getElementById("demo16").innerHTML = `
+  var str = "I love JavaScript.";<br>
+  str.padEnd(25, "-")   (targetLength , padString )<br>
+  Result : ${str.padEnd(25,"-")}`
