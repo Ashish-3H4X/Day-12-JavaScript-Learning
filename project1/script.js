@@ -122,3 +122,8 @@ document.getElementById("demo17").innerHTML = `
 
 
 //
+var str = "I love JavaScript. I love Html , I love Css, I love Python ";
+document.getElementById("demo19").innerHTML = `
+  var str = "I love JavaScript. I love Html , I love Css, I love Python ";<br>
+  str.replaceAll("love","like")<br>
+  Result : ${str.replaceAll("love","like")}`
