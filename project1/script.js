@@ -78,3 +78,22 @@ var  str = "I love JavaScript";
  demo13.innerHTML=`var  str ="I     love    JavaScript   ";<br>
  demo1.innerHTML = str.trim()<br> Result :<br>${str.trim()}` // it removes extra space between words
 
+// trimStart () method of sting 
+
+var  str = "     I love JavaScript   .";
+demo13.innerHTML=`var  str = "     I love JavaScript   ";<br>
+demo1.innerHTML = str.trimStart()<br> Result :<br>${str.trimStart()}`
+ 
+
+ // trimStart() method of string
+
+var  str = "I love JavaScript               .";
+demo14.innerHTML=`var  str = "I love JavaScript   ";<br>
+demo1.innerHTML = str.trimEnd()<br> Real string  : <br> ${str} <br> Result :<br>${str.trimEnd()}`
+
+//  padstart method 
+var str = "I love JavaScript.";
+document.getElementById("demo15").innerHTML = `
+  var str = "I love JavaScript.";<br>
+  str.padStart(25, "_")<br>
+  Result :<br>${str.padStart(50, " ---")}`; /// it adding the padding in start 
