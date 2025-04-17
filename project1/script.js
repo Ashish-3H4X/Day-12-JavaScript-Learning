@@ -45,7 +45,13 @@ var  str = "I love JavaScript";
  var  str = "I love JavaScript";
  demo8.innerHTML=`var  str = "I love JavaScript";<br>
  demo1.innerHTML = str.substring(-16,-7)<br> Result :<br>${str.substring(-16,-7)}`
+
  // substr method (index  , length  how much charr is  accept ) 
  var  str = "I love JavaScript";
  demo9.innerHTML=`var  str = "I love JavaScript";<br>
  demo1.innerHTML = str.substr(-16,-7)<br> Result :<br>${str.substr(4,9)}` /// it give strikeout because new javascript version not support it 
+ ///  toUpperCase() method 
+
+ var  str = "I love JavaScript";
+ demo10.innerHTML=`var  str = "I love JavaScript";<br>
+ demo1.innerHTML = str.toUpperCase()<br> Result :<br>${str.toUpperCase()}`
