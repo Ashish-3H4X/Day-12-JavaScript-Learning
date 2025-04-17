@@ -105,3 +105,10 @@ document.getElementById("demo16").innerHTML = `
   var str = "I love JavaScript.";<br>
   str.padEnd(25, "-")   (targetLength , padString )<br>
   Result : ${str.padEnd(25,"-")}`
+
+  //  repeat method  
+  var str = "I love JavaScript.";
+document.getElementById("demo17").innerHTML = `
+  var str = "I love JavaScript.";<br>
+  str.repeat()<br>
+  Result : ${str.repeat(4)}`
