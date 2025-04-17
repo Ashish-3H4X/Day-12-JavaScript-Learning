@@ -62,3 +62,10 @@ var  str = "I love JavaScript";
  var  str = "I love JavaScript";
  demo11.innerHTML=`var  str = "I love JavaScript";<br>
  demo1.innerHTML = str.toLowerCase()<br> Result :<br>${str.toLowerCase()}`
+
+ /// to concat()  method  
+
+ 
+ var  str = "I love JavaScript";
+ demo12.innerHTML=`var  str = "I love JavaScript";<br>
+ demo1.innerHTML = str.concat("and Node.js")<br> Result :<br>${str.concat(" and Node.js")}`
