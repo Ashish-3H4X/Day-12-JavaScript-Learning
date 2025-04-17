@@ -139,8 +139,8 @@ Result : ${fruits}
 let fullName = "Rahul Verma";
 let [firstName, lastName] = fullName.split(" ");
 document.getElementById("demo21").innerHTML = `
-let fullName = "Rahul Verma";
-let [firstName, lastName] = fullName.split(" ");
+let fullName = "Rahul Verma";<br>
+let [firstName, lastName] = fullName.split(" ");<br>
  ${firstName}<br>
  ${lastName}
 ` 
