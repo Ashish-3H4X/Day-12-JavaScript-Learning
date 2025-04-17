@@ -97,3 +97,5 @@ document.getElementById("demo15").innerHTML = `
   var str = "I love JavaScript.";<br>
   str.padStart(25, "_")<br>
   Result :<br>${str.padStart(50, " ---")}`; /// it adding the padding in start 
+
+  
