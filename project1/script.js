@@ -55,3 +55,10 @@ var  str = "I love JavaScript";
  var  str = "I love JavaScript";
  demo10.innerHTML=`var  str = "I love JavaScript";<br>
  demo1.innerHTML = str.toUpperCase()<br> Result :<br>${str.toUpperCase()}`
+
+
+ // toLowerCase () method 
+
+ var  str = "I love JavaScript";
+ demo11.innerHTML=`var  str = "I love JavaScript";<br>
+ demo1.innerHTML = str.toLowerCase()<br> Result :<br>${str.toLowerCase()}`
