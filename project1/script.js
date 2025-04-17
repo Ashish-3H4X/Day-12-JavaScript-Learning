@@ -121,9 +121,26 @@ document.getElementById("demo17").innerHTML = `
     Result : ${str.replace("love","like")}`
 
 
-//
+// replaceAll method 
 var str = "I love JavaScript. I love Html , I love Css, I love Python ";
 document.getElementById("demo19").innerHTML = `
   var str = "I love JavaScript. I love Html , I love Css, I love Python ";<br>
   str.replaceAll("love","like")<br>
   Result : ${str.replaceAll("love","like")}`
+
+// split method 
+let csv = "apple,banana,orange";
+let fruits = csv.split(",");
+document.getElementById("demo20").innerHTML = `let csv = "apple,banana,orange";<br>
+let fruits = csv.split(",");<br>
+Result : ${fruits}
+`
+
+let fullName = "Rahul Verma";
+let [firstName, lastName] = fullName.split(" ");
+document.getElementById("demo21").innerHTML = `
+let fullName = "Rahul Verma";
+let [firstName, lastName] = fullName.split(" ");
+ ${firstName}<br>
+ ${lastName}
+` 
