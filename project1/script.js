@@ -34,4 +34,15 @@ var  str = "I love JavaScript";
 
  // substring () method 
 
+ var  str = "I love JavaScript";
+ demo7.innerHTML=`var  str = "I love JavaScript";<br>
+ demo1.innerHTML = str.substring(4)<br> Result :<br>${str.substring(4)}`
+
+ var  str = "I love JavaScript";
+ demo8.innerHTML=`var  str = "I love JavaScript";<br>
+ demo1.innerHTML = str.substring(-1)<br> Result :<br>${str.substring(-1)}`
+
+ var  str = "I love JavaScript";
+ demo8.innerHTML=`var  str = "I love JavaScript";<br>
+ demo1.innerHTML = str.substring(-16,-7)<br> Result :<br>${str.substring(-16,-7)}`
  
